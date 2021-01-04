@@ -59,7 +59,7 @@ void Lcd_Set_Cursor(char a, char b)
 	}
 }
 
-void Lcd_Init()
+void Lcd_Init() 
 {
   Lcd_Port(0x00);
   __delay_ms(20);
